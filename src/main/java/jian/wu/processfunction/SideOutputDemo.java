@@ -1,4 +1,4 @@
-package jian.wu.process;
+package jian.wu.processfunction;
 
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
