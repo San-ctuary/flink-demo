@@ -22,7 +22,7 @@ public class KafkaConsumerAndProducer {
         env.setParallelism(1);
         KafkaSource<String> source = KafkaSource.<String>builder()
                 .setBootstrapServers("hadoop102:9092")
-                .setTopics("topic_log")
+                .setTopics("dwd_traffic_page_log")
                 .setGroupId("my-group")
                 .setStartingOffsets(OffsetsInitializer.earliest())
                 .setValueOnlyDeserializer(new SimpleStringSchema())
@@ -32,10 +32,10 @@ public class KafkaConsumerAndProducer {
         kfSource.print();
 
         Properties properties = new Properties();
-        properties.setProperty("bootstrap.servers", "hadoop102:9092");
+        properties.setProperty("bootstrap.servers", "192.168.21.69:9092");
 
         FlinkKafkaProducer<String> kafkaProducer = new FlinkKafkaProducer<>(
-                "test",
+                "dwd_traffic_page_log",
                 new SimpleStringSchema(),
                 properties
         );
