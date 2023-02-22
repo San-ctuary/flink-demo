@@ -1,7 +1,7 @@
 package jian.wu.processfunction;
 
 import jian.wu.source.ClickSource;
-import jian.wu.source.Event;
+import jian.wu.pojo.Event;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.KeyedProcessFunction;

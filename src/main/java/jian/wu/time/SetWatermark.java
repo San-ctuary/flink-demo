@@ -1,7 +1,7 @@
 package jian.wu.time;
 
 import jian.wu.source.ClickSource;
-import jian.wu.source.Event;
+import jian.wu.pojo.Event;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

@@ -1,5 +1,6 @@
 package jian.wu.source;
 
+import jian.wu.pojo.Event;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
 import java.util.Calendar;

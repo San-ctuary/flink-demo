@@ -1,4 +1,4 @@
-package jian.wu.source;
+package jian.wu.pojo;
 
 public class Event {
     public String user;
