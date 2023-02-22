@@ -4,3 +4,4 @@
 - [x] ProcessTimeTimer 基于processtime的触发器
 - [x] EventTimeTimer 基于eventtime的触发器
 - [x] KafkaConsumerAndProducer FlinkKafka使用
+- [x] LoginFailDetect 基于cep检测连续三次登陆失败的用户

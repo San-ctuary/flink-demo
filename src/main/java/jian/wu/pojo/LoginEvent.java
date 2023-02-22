@@ -1,4 +1,4 @@
-package jian.wu.cep;
+package jian.wu.pojo;
 
 /**
  * @Auther: sanctuary

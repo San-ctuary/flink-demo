@@ -1,5 +1,6 @@
 package jian.wu.cep;
 
+import jian.wu.pojo.LoginEvent;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.cep.CEP;
